@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 64.024 s <<< FAILURE! - in TestSuite
+MockFailTest.SampleFailTestForReportOne  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.IllegalArgumentException: wrong number of arguments
+
