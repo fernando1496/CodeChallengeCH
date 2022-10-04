@@ -6,4 +6,4 @@ jobs:
       - image: cimg/openjdk:17.0.1 
     steps:
       - checkout
-      - run: ./mvn test
+      - run: mvn test
