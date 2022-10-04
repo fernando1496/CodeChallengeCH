@@ -6,4 +6,4 @@ jobs:
       - image: cimg/openjdk:17.0.1 
     steps:
       - checkout
-      - run: ./mvnw package
+      - run: ./mvnw test
