@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.util.concurrent.TimeUnit;
 
@@ -13,11 +14,12 @@ public class DriverBuilder {
         WebDriver driver;
         switch (browserToRun){
             case "Google Chrome":
-                System.setProperty("webdriver.chrome.driver","drivers/chromedriver");
+                WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
                 break;
             case "Mozilla Firefox":
                 System.setProperty("webdriver.gecko.driver","drivers/geckodriver");
+                WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
                 break;
             case "Safari":

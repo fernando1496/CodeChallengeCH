@@ -12,4 +12,5 @@ public class ElementExtensions {
         jsExecutor.executeScript("arguments[0].setAttribute('style', 'border:2px solid red; background:yellow')", element);
         return element;
     }
+
 }
