@@ -1,4 +1,4 @@
-# Clipboard health code challenge
+# Clipboard health code challenge for SDET
 
 Contents of this file
 ---------------------
