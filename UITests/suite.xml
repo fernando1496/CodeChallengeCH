@@ -12,12 +12,6 @@
         </classes>
     </test>
 
-    <test name = "Fail Test">
-        <classes>
-            <class name = "MockFailTest" />
-        </classes>
-    </test>
-
     <test name = "Pass Test">
         <classes>
             <class name = "MockPassTest" />
