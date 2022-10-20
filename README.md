@@ -1,4 +1,4 @@
-# Clipboard health code challenge for SDET
+# Code challenge for SDET engineer
 
 Contents of this file
 ---------------------
