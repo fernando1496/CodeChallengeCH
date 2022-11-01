@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat "mvn compile"
+                sh "mvn compile"
                 sh 'echo "Buildin automation framework"'
                 sh '''
                     echo "Multiline shell steps works too"
